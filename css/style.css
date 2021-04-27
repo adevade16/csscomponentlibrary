@@ -174,7 +174,7 @@ aside a:hover {
 }
 
 .csslink {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
@@ -184,6 +184,19 @@ aside a:hover {
   background-color: #e0e0ec;
   color: black;
   border-radius: 30px;
+  overflow: auto;
+}
+
+@media screen and (min-width: 601px) {
+  div.csslink {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.csslink {
+    font-size: 10px;
+  }
 }
 
 .para {
